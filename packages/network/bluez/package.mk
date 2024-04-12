@@ -3,7 +3,7 @@
 # Copyright (C) 2019-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="bluez"
-PKG_VERSION="5.72"
+PKG_VERSION="5.73"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.bluez.org/"
 PKG_URL="https://www.kernel.org/pub/linux/bluetooth/${PKG_NAME}-${PKG_VERSION}.tar.xz"
@@ -34,7 +34,6 @@ PKG_CONFIGURE_OPTS_TARGET="--disable-dependency-tracking \
                            --disable-manpages \
                            --disable-experimental \
                            --enable-sixaxis \
-                           --enable-sap \
                            --enable-a2dp \
                            --enable-avrcp \
                            --enable-btpclient \
