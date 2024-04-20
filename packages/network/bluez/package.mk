@@ -74,6 +74,7 @@ post_makeinstall_target() {
 [General]
 ClassicBondedOnly=false
 UserspaceHID=false
+FastConnectable=true
 EOF
 
   mkdir -p ${INSTALL}/usr/share/services
